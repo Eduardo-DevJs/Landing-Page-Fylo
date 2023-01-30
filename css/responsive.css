@@ -1,0 +1,56 @@
+@media(max-width: 800px){
+  
+  .header {
+    display: block;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-nav {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-nav a {
+    display: block;
+    background: hsl(219, 30%, 18%);
+    border-radius: 4px;
+    padding: 10px;
+  }
+
+  .titulo {
+    font-size: 2rem;
+    margin: 35px 0;
+  }
+
+  .paragrafo{
+    font-size: 1rem;
+  }
+
+  .lista{
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+
+  .section-productive {
+    grid-template-columns: 1fr;
+  }
+
+  .titulo-producao{
+    font-size: 1.3rem;
+    margin-top: 40px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-listas {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
